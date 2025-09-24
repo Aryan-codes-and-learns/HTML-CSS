@@ -1,0 +1,23 @@
+body{
+    font-family: 'Press Start 2P', cursive;
+}
+
+#a{
+    /* The first number is for the positioning on the x-axis*/
+        /* Positive value moves the shadow to the right, negative to the left*/
+
+    /* The second number is for the positioning on the y-axis*/
+        /* Positive value moves the shadow down, negative up*/
+
+    /* The third number is for the blur radius*/
+        /* The higher the value, the more blurred the shadow will be*/
+        /* A value of 0 will make the shadow sharp and clear*/
+
+    /* The last value is for the color of the shadow ofc*/
+
+    text-shadow: 5px 5px 4px grey;
+}
+
+#b{
+    box-shadow: 5px 5px 4px grey, -5px -5px 4px red;
+}

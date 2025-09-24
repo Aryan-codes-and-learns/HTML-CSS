@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<!--There are 3 ways in which we can apply CSS to HTML-->
+    <!--1. Inline CSS-->
+    <!--2. Internal CSS-->
+    <!--3. External CSS-->  <!--External Works the Best Especially if the Website is Large-->
+
+<!--The lines would overlap each other because I basically done the exact same thing-->
+<!--But with using different methods-->
+
+<html>
+
+    <head>
+        <title>CSS Introduction</title>
+
+        <!--Internal CSS Example-->
+        <style>
+            body{background-color: black;}
+            #p1{color:white}
+            p{background-color: gray; color: white;}
+            .odd{color: red;}
+            .even{color: blue;}
+        </style>
+
+        <!--External CSS Example-->
+        <link rel="stylesheet" href="Style.css"> <!--Linking the External CSS File-->
+    </head>
+
+    <body style = "background-color: black;">  <!--Inline CSS Example-->
+        <!--Inline CSS Example-->
+        <h1 style="color:white" id="p1">This is my website</h1>
+      
+        <p style="background-color: gray; color: red;" class = "odd">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit nesciunt optio quia hic consequatur et eius, provident odit veniam corporis vero debitis! Ab esse earum quas dolorem tenetur harum itaque.</p>
+        <p style="background-color: gray; color: blue;" class = "even">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit nesciunt optio quia hic consequatur et eius, provident odit veniam corporis vero debitis! Ab esse earum quas dolorem tenetur harum itaque.</p>
+        <p style="background-color: gray; color: red;" class = "odd">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit nesciunt optio quia hic consequatur et eius, provident odit veniam corporis vero debitis! Ab esse earum quas dolorem tenetur harum itaque.</p>
+        <p style="background-color: gray; color: blue;" class = "even">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit nesciunt optio quia hic consequatur et eius, provident odit veniam corporis vero debitis! Ab esse earum quas dolorem tenetur harum itaque.</p>
+
+
+    </body>
+
+</html>

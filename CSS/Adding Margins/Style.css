@@ -1,0 +1,28 @@
+body{
+    margin-left: 10px;
+}
+/* Margin is the space outside of the border*/
+/* You can add margin to any side of an element using the following properties:
+   margin-top
+   margin-right
+   margin-bottom
+   margin-left
+*/
+/*Padding is the space between the content and the border of an element*/
+
+#box1{
+    border: 5px solid black;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: greenyellow;
+    margin-top: 10px; /*This will add a margin of 10px to the top of the element*/
+}
+#box2{
+    border: 5px solid black;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background: orange;
+    margin-top: 10px;
+}

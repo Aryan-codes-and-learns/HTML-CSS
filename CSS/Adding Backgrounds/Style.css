@@ -1,0 +1,19 @@
+body{
+    background-image: url(cool_image.avif); /* adds background to the body */
+    background-repeat: no-repeat; /* makes sure that the image doesnt get repeated */
+    background-attachment: fixed; /* fixed makes sure the image doesn't scroll with the page */
+    background-position: center; /* centers the image */
+    background-size: cover; /* cover makes sure the image adjusts itself according to the screen size */
+}
+h1{
+    background: linear-gradient(skyblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p{
+    background: linear-gradient(lightyellow, lightgrey);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
